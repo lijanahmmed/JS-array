@@ -5,7 +5,7 @@
 */
 
 const price = 1500; //number
-// console.log(price);
+console.log(price);
 const name = 'Kirkir ali khan'; //string
 const isPoor = false; //boolean
 const friends = ['Elon', 'Mark', 'Bill', 'Jeff']
@@ -26,8 +26,8 @@ else {
 let pushUp = 0;
 while (pushUp < 10) {
     console.log('push up', pushUp);
-    // pushUp = pushUp + 1;
-    // pushUp += 1;
+    pushUp = pushUp + 1;
+    pushUp += 1;
     pushUp++;
 }
 

@@ -9,11 +9,11 @@ const employees = [
 
 
 employees[0].name = 'Ashraf';
-// console.log(employees[1].salary)
-// console.log(employees[3].designation)
-// for(const employee of employees){
-//     console.log(employee.salary, employee.designation);
-// }
+console.log(employees[1].salary)
+console.log(employees[3].designation)
+for(const employee of employees){
+    console.log(employee.salary, employee.designation);
+}
 
 for (const emp of employees) {
     const person = emp;
